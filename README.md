@@ -146,6 +146,12 @@ launcher/
 
 ---
 
+## 🖼️ Asset Credits
+
+Character artwork under `src/assets/characters/` is official SoulWorker fan-kit art (© Gamecom / official SoulWorker fan kit terms), used under the kit's non-commercial fan-use license. The `ultimia-icon.png` and fonts (Chakra Petch, Rajdhani, Teko, Inter — SIL Open Font License) are project assets.
+
+---
+
 ## 📜 License
 
 Ultimia Launcher is proprietary software — see [LICENSE](LICENSE) for the full terms.
