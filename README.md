@@ -21,6 +21,7 @@
 - [⚠️ Limitations](#-limitations)
 - [🔒 Privacy](#-privacy)
 - [📜 License](#-license)
+- [📧 Contact](#-contact)
 
 ---
 
@@ -159,6 +160,11 @@ Ultimia Launcher is proprietary software — see [LICENSE](LICENSE) for the full
 **Copyright © 2026 AliesterEroan. All rights reserved.**
 
 Personal, non-commercial use only. SoulWorker and all game assets belong to their respective owners; this project contains no game files.
+
+## 📧 Contact
+
+- GitHub: [AliesterEroan/ultimia-launcher](https://github.com/AliesterEroan/ultimia-launcher)
+- Issues: [Create an issue](https://github.com/AliesterEroan/ultimia-launcher/issues)
 
 ---
 
