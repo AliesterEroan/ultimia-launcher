@@ -6,7 +6,7 @@
 
 **Desktop launcher for the SoulWorker GB/Steam client — detects installs, launches official or private-server sessions.**
 
-> Part of the **Ultimia** suite: `../dashboard` (Ultimiadash admin panel), `../server` (Rust server emulator), `../reference` (protocol references), `../../Ultimia-sniff` (packet recon tool).
+> Part of the **[Ultimia](https://github.com/AliesterEroan) suite**: [ultimiadash](https://github.com/AliesterEroan/ultimiadash) · [ultimia-server](https://github.com/AliesterEroan/ultimia-server) · [ultimia-sniff](https://github.com/AliesterEroan/ultimia-sniff) — four apps for running SoulWorker locally.
 
 ---
 
