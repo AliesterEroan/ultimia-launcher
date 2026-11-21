@@ -168,4 +168,4 @@ Personal, non-commercial use only. SoulWorker and all game assets belong to thei
 
 ---
 
-*Author: AliesterEroan*
+Built with ❤️ by AliesterEroan
