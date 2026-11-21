@@ -1,0 +1,52 @@
+[package]
+name = "ultimia-launcher"
+version = "1.0.0"
+description = "Ultimia Launcher - an honest SoulWorker client launcher"
+edition = "2021"
+rust-version = "1.77"
+
+[lib]
+name = "ultimia_launcher_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+regex = "1"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.61", features = [
+    "Win32_Storage_FileSystem",
+    "Win32_Foundation",
+    "Win32_System_Diagnostics_ToolHelp",
+    "Win32_System_Registry",
+    "Win32_Networking_WinHttp",
+    "Win32_Security_Cryptography",
+    "Win32_System_Com",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Memory",
+    "Win32_System_Threading",
+    "Win32_System_Ole",
+    "Win32_System_Rpc",
+    "Win32_System_SystemInformation",
+    "Win32_System_Wmi",
+    "Win32_System_Variant",
+    "Win32_UI_Shell",
+] }
+
+[features]
+# Embeds and serves frontendDist from the binary. Without it, even a --release
+# build falls back to devUrl (http://localhost:8443) and the window is blank
+# unless a Vite server happens to be running. DO NOT REMOVE.
+custom-protocol = ["tauri/custom-protocol"]
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"
